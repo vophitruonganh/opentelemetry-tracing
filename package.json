@@ -1,0 +1,52 @@
+{
+  "name": "opentelemetry-tracing",
+  "version": "1.0.1",
+  "main": "dist/index",
+  "scripts": {
+    "start:dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.2.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.32.0",
+    "@opentelemetry/exporter-jaeger": "^1.6.0",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.32.0",
+    "@opentelemetry/resources": "^1.6.0",
+    "@opentelemetry/sdk-node": "^0.32.0",
+    "@opentelemetry/sdk-trace-node": "^1.6.0",
+    "@types/ws": "^7.4.7",
+    "aws-sdk": "^2.1215.0",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "randomstring": "^1.2.1",
+    "socket.io": "^4.1.3",
+    "socket.io-client": "^4.1.3",
+    "ts-node-dev": "^2.0.0",
+    "tslint-config-airbnb": "^5.11.2",
+    "voucher-code-generator": "^1.1.1",
+    "ws": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.8.3"
+  },
+  "author": "",
+  "keywords": [
+    "opentelemetry-tracing",
+    "opentelemetry",
+    "tracing",
+    "nodejs",
+    "otlp"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vophitruonganh/opentelemetry-tracing/issues"
+  },
+  "homepage": "https://github.com/vophitruonganh/opentelemetry-tracing#readme"
+}
