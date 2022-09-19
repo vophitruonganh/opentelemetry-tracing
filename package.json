@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "main": "dist/index",
   "scripts": {
-    "start:dev": "ts-node-dev --respawn src/index.ts"
+    "start:dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "@opentelemetry/api": "^1.2.0",
