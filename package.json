@@ -1,6 +1,6 @@
 {
   "name": "opentelemetry-tracing",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index",
   "scripts": {
     "start:dev": "ts-node-dev --respawn src/index.ts",
